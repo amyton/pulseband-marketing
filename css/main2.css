@@ -5,6 +5,7 @@
 
 body {
 	font-family: 'Open Sans';
+	font-weight: 300;
 	font-size: 18px;
 	color: #424268;
 }
@@ -102,8 +103,8 @@ li.buy-button {
 
 .meet ul li {
 	display: inline-block;
-	width: 28%;
-  	padding: 20px;
+	width: 30%;
+  	padding: 13px;
 
 	
 }
@@ -124,7 +125,7 @@ li.buy-button {
 
 .quiz{
 
-	height: 100vh;
+	height: 80vh;
 	
 	background: #7f7b7e url(../img/quiz.jpg) no-repeat center center;	
 	background-size: cover;
@@ -136,17 +137,19 @@ li.buy-button {
 .quiz {
 	color:#fff;
 	font-size: 24px;
+	padding: 60px 0;
 }
 
 .quiz h1 {
 	font-family: 'GeInspira';
 	font-size: 42px;
-	padding-top: 60px;
 	padding-bottom: 20px;
 }
 
+
+
 .p {
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	width: 732px;
 	color: #fff;
 }
@@ -163,11 +166,18 @@ li.buy-button {
 	padding-top: 20px;
 }
 
+.answers {
+	width:400px;
+}
 label {
 	color:#424268;
 	background-color: #fff;
-	border-radius: 25px;
-	padding:10px;
+	border-radius: 50px;
+	padding: 10px 18px;
+	font-size: 18px;
+	opacity: 0.9;
+	
+
 }
 
 .quiz ul li {
@@ -205,6 +215,7 @@ section.sync:after {
 }
 
 .sync h1 {
+	font-family: 'GeInspira';
   font-size: 42px;
   margin-bottom: 20px;
 
@@ -240,7 +251,7 @@ p{
 /*------ Reimagine Heart Monitoring---------*/
 
 .reimagine h2{
-	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-family: 'GeInspira', sans-serif, Helvetica, sans-serif;
 	font-size: 48px;
 	line-height: 1.5;
 	font-weight: 300;
@@ -256,7 +267,7 @@ p{
 
 
 h2.stay{
-	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-family: 'GEInspira', sans-serif, Helvetica, sans-serif;
 	font-size: 48px;
 	line-height: 1.5;
 	font-weight: 300;
@@ -271,7 +282,7 @@ p.hear, .testimonials p{
 }
 section.purple_testimonials{
 	background: #424268;
-	height: 100vh;
+	height: 110vh;
 }
 
 .container{
@@ -281,10 +292,9 @@ section.purple_testimonials{
 }
 
 ul.testimonials li{
-	width: 250px;
+	width: 240px;
 	display: inline-block;
-	text-align: center;
-	padding-top:30px;
+		padding-top:30px;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -292,13 +302,18 @@ ul.testimonials li{
 
 .testimonials p{
 	width:90%;
-	margin: 0 auto;
+	padding-left: 17px;
 }
 
 p.quote-name{
 	line-height: 0;
-	margin-left:60px;
+	float: right;
 }
+
+.testimonials img {
+	padding-left: 20px;
+}
+
 
 
 li.quote-1, .quote-2{
@@ -322,7 +337,7 @@ li.quote-3{
 /*------ Footer---------*/
 
 h2.get{
-	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-family: 'GEInspira', sans-serif, Helvetica, sans-serif;
 	font-size: 60px;
 	line-height: 1.5;
 	font-weight: 300;
@@ -346,6 +361,7 @@ a {
 }
 
 button{
+	font-family: 'GeInspira';
 	padding: 15px;
 	border: 0px;
 	margin: 50px auto 25px;
@@ -412,16 +428,19 @@ section.contactbreak{
 	position: absolute;
 	left: 60%;
 	bottom: 10%;
+	font-size: 30px;
 }
 
 
 ul.contact{
 	list-style: none;
+
 }
 
 ul.contact li{
 	float: left;
 	padding-right: 30px;
+	padding-left:30px;
 }
 
 .facebook, .twitter, .youtube, .google{
