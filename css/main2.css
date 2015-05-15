@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'GeInspira';
+    src: url(font/GEInspiraRegular.ttf);
+}
+
+body {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: #424268;
+}
+
+.container {
+	margin:0 auto;
+	width:921px;
+}
+
+.right {
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.buy {
+		border:1px solid #424268;
+		border-radius: 30px;
+		color: #424268;
+		background-color: #fff;
+		text-decoration: none;
+		padding: 20px;
+		font-size: 18px;
+	}
+
+.top_bar {
+
+}
+.hero{
+
+	height: 100vh;
+
+	background: #7f7b7e url(../img/header.jpg) no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+
+.header {
+	top:500px;
+	color:#fff;
+}
+
+.hero_title {
+	font-size: 40px;
+  	width: 60%;
+  	padding-top: 250px;
+  	  line-height: 1.2;
+}
+
+.hero-buy {
+	background: #f8c663;
+	color: #fff;
+	border-radius: 45px;
+	  padding: 10px 30px;
+}
+
+.navigation ul {
+	padding: 10px 0;
+}
+
+li.buy-button {
+  position: absolute;
+  right: 0;
+  top: 37px;
+}
+
+.buy-button .buy {
+	padding: 10px 20px;
+}
+
+.pbimg {
+	text-align: center;
+	margin: 40px;
+}
+
+.reimagine {
+	margin-bottom: 80px;
+}
+
+.meet {
+	margin: 80px 0;
+}
+.meet h1, h3 {
+	font-family: 'GEInspira';
+	font-size: 58px;
+	margin-bottom: 10px;
+}
+
+
+
+.meet ul li {
+	display: inline-block;
+	width: 28%;
+  	padding: 20px;
+
+	
+}
+.meet h3 {
+	font-size: 36px;
+}
+
+.meet ul li img,
+.meet h3 {
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.meet ul li img {
+	padding-right: 10px;
+}
+
+
+.quiz{
+
+	height: 100vh;
+	
+	background: #7f7b7e url(../img/quiz.jpg) no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+
+.quiz {
+	color:#fff;
+	font-size: 24px;
+}
+
+.quiz h1 {
+	font-family: 'GeInspira';
+	font-size: 42px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.p {
+	padding-bottom: 60px;
+	width: 732px;
+	color: #fff;
+}
+
+.q {
+	  color: white;
+  font-size: 26px;
+  width: 60%;
+  margin-bottom: 20px;
+
+}
+
+.answers {
+	padding-top: 20px;
+}
+
+label {
+	color:#424268;
+	background-color: #fff;
+	border-radius: 25px;
+	padding:10px;
+}
+
+.quiz ul li {
+	margin-bottom: 50px;
+}
+
+/* ========================
+    sync section
+=========================== */
+
+.sync {
+    background-color: #F2F0F1;
+    padding: 100px;
+}
+
+.sync-items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sync-column {
+  width: 33%;
+  float: left;
+}
+
+section.sync:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sync-items ul li {
+  padding-bottom: 90px;
+}
+
+.sync h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+
+}
+
+.sync .tagline {
+    margin-bottom: 50px;
+}
+
+.sync-items img, .sync-items p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sync-items p {
+  width: 70%;
+  margin-left: 15px;
+}
+
+
+/* ========================
+    monitoring and footer
+======================== */
+
+p{
+	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #424268;
+}
+
+/*------ Reimagine Heart Monitoring---------*/
+
+.reimagine h2{
+	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-size: 48px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #424268;
+	padding-top: 60px;
+}
+
+.reimagine img{
+	  margin: 70px auto;
+}
+
+/*------ Stay Calm & Confident---------*/
+
+
+h2.stay{
+	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-size: 48px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #fff;
+	padding-top:4%;
+}
+
+p.hear, .testimonials p{
+	color: #fff;
+	  padding-bottom: 30px;
+	  padding-top: 30px;
+}
+section.purple_testimonials{
+	background: #424268;
+	height: 100vh;
+}
+
+.container{
+	position: relative;
+	width:920px;
+	margin: 0 auto;
+}
+
+ul.testimonials li{
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	padding-top:30px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.testimonials p{
+	width:90%;
+	margin: 0 auto;
+}
+
+p.quote-name{
+	line-height: 0;
+	margin-left:60px;
+}
+
+
+li.quote-1, .quote-2{
+	margin-right:75px;
+}
+
+
+li.quote-1{
+	background: #f8807f;
+}
+
+li.quote-2{
+	background: #bbd84c;
+}
+
+li.quote-3{
+	background: #4c8ea3;
+}
+
+
+/*------ Footer---------*/
+
+h2.get{
+	font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+	font-size: 60px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #424268;
+}
+
+section.getbreak{
+	height: 420px;
+}
+
+div.getbreak_text{
+	width: 80%;
+	margin: 0 auto 0;
+	padding-top: 5%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+button{
+	padding: 15px;
+	border: 0px;
+	margin: 50px auto 25px;
+	background: #f8c663;
+	font-size: 24px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.getbreak p {
+	  font-size: 22px;
+}
+
+.purple_emailbreak{
+	position: relative;
+	  padding: 30px;
+	background: #424268;
+	
+}
+
+p.keep{
+	color: #fff;
+	display: inline-block;
+	font-size: 22px;  
+	line-height: 2;
+}
+
+div.emailprompt{
+	background: #fff;
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	left: 60%;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+p.email{
+	color: #646267;
+	  padding: 7px 20px;
+}
+
+
+p.email:before{
+	content: "\f003";
+	font-family:'FontAwesome';
+	padding-right: 15px;
+}
+
+
+section.contactbreak{
+	position: relative;
+	height: 250px
+}
+
+.copy{
+	position: absolute;
+	bottom: 10%;
+}
+
+.contact{
+	position: absolute;
+	left: 60%;
+	bottom: 10%;
+}
+
+
+ul.contact{
+	list-style: none;
+}
+
+ul.contact li{
+	float: left;
+	padding-right: 30px;
+}
+
+.facebook, .twitter, .youtube, .google{
+	color: #424268;
+}
+
+.facebook:before{
+	content: "\f09a";
+	font-family:'FontAwesome';
+	display: block;
+}
+
+.twitter:before{
+	content: "\f099";
+	font-family:'FontAwesome';
+	display: block;
+}
+
+.youtube:before{
+	content: "\f167";
+	font-family:'FontAwesome';
+	display: block;
+}
+
+.google:before{
+	content: "\f0d5";
+	font-family:'FontAwesome';
+	display: block;
+}
+

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'GeInspira';
+    src: url(font/GEInspiraRegular.ttf);
+}
+
+
+
+body {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: #424268;
+}
+
+.container {
+	margin:0 auto;
+	width:921px;
+}
+
+.right {
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;}
+
+.buy {
+		border:1px solid #424268;
+		border-radius: 30px;
+		color: #424268;
+		background-color: #fff;
+		text-decoration: none;
+		padding: 20px;
+		font-size: 18px;
+	}
+
+.top_bar {
+
+}
+.hero{
+
+	height: 100vh;
+
+	background: #7f7b7e url(../img/header.jpg) no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+
+.header {
+	top:500px;
+	color:#fff;
+}
+
+.pbimg {
+	text-align: center;
+	margin:20px;
+}
+
+.meet {
+	margin-top: 80px;
+}
+.meet h1, h3 {
+	font-family: 'GEInspira';
+	font-size: 58px;
+	margin-bottom: 10px;
+}
+
+
+
+.meet ul li {
+	display: inline-block;
+	width:30%;
+
+	
+}
+.meet h3 {
+	font-size: 36px;
+}
+
+.meet ul li img,
+.meet h3 {
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.meet ul li img {
+	padding-right: 10px;
+}
+
+
+.quiz{
+
+	height: 100vh;
+	
+	background: #7f7b7e url(../img/quiz.jpg) no-repeat center center;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+
+.quiz {
+	color:#fff;
+	font-size: 24px;
+}
+
+.quiz h1 {
+	font-family: 'GeInspira';
+	font-size: 42px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.p {
+	padding-bottom: 60px;
+	width: 732px;
+}
+
+.answers {
+	padding-top: 20px;
+}
+
+label {
+	color:#424268;
+	background-color: #fff;
+	border-radius: 25px;
+	padding:10px;
+	margin-bottom: 50px;
+}
+
+
+/* ========================
+    sync section
+======================== */
+
+.sync {
+    background-color: #F2F0F1;
+    padding: 100px;
+}
+
+.sync-items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sync-column {
+  width: 33%;
+  float: left;
+}
+
+section.sync:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sync-items ul li {
+  padding-bottom: 90px;
+}
+
+.sync h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+
+}
+
+.sync .tagline {
+    margin-bottom: 50px;
+}
+
+.sync-items img, .sync-items p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sync-items p {
+  width: 70%;
+  margin-left: 15px;
+}
